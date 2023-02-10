@@ -8,6 +8,8 @@
   @include mixins.flex-center();
   flex-wrap: wrap;
   padding-top: 2rem;
+  font-variation-settings: "wonk" 1, "opsz" 50, "soft" 50, "wght" 400;
+
 
   &__title {
     color: var.$primary-very-dark;
@@ -15,6 +17,8 @@
     font-size: type.$display-title-size;
     letter-spacing: type.$display-spacing;
     text-align: center;
+    font-variation-settings: "wonk" 1, "opsz" 50, "soft" 50, "wght" 400;
+
   }
 
   &__img {
@@ -27,11 +31,15 @@
     font-size: type.$body-font-size;
     font-weight: type.$body-font-weight;
     padding: 0rem 5vw;
+    font-variation-settings: "wonk" 1, "opsz" 70, "soft" 40, "wght" 300;
+
 
     &--first {
       font-style: italic;
       font-weight: type.$body-italic-weight;
       letter-spacing: 0.15em;
+      font-variation-settings: "wonk" 1, "opsz" 100, "soft" 50, "wght" 200;
+
     }
   }
 }
